@@ -1,5 +1,5 @@
 {% set name = "django-linear-migrations" %}
-{% set version = "2.15.0" %}
+{% set version = "2.16.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/django_linear_migrations-{{ version }}.tar.gz
-  sha256: 99c66b6399114c21789070e94e91ed64496482ae1b36bf06d071964792579f26
+  sha256: 49219552dca0948029a4116ff2352fb1625e59a1eb26afc7dd1e168480adb673
 
 build:
   noarch: python
